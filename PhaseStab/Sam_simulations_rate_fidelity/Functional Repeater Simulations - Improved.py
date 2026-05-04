@@ -135,7 +135,7 @@ details for both source and memory
 """
 
 # Select parameter set: 0 = current SW, 1 = current DD, 2 = optimistic, 3 = very optimistic, 4 = Welinq
-par = 4
+par = 1
 
 
 # ------------------------------
@@ -206,7 +206,7 @@ etaDs = [0.85, 0.85, 0.90, 0.95, 0.9][par]      # Signal detector
 # ------------------------------
 # Fiber Channel Specs
 # ------------------------------
-L = 25                                   # Fiber length [km]
+L = 50                                   # Fiber length [km]
 alpha = 0.2                                # Attenuation [dB/km]
 fib = 10 ** (-alpha * L / 10)              # Fiber transmission
 
