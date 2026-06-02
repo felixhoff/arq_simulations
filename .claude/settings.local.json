@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c ' *)",
-      "Bash(python)",
-      "Bash(python add_cells.py)"
-    ]
-  }
-}
