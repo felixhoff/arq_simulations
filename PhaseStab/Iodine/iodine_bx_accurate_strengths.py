@@ -641,7 +641,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate I2 B-X line positions and improved relative strengths from spectroscopic potentials."
     )
-    parser.add_argument("--max-j", type=int, default=150, help="maximum lower-state J'' to include")
+    parser.add_argument("--max-j", type=int, default=200, help="maximum lower-state J'' to include")
     parser.add_argument("--temperature", type=float, default=300.0, help="Boltzmann temperature in K")
     parser.add_argument("--mode", choices=["all", "analyzed"], default="all")
     parser.add_argument("--branches", choices=["both", "P", "R"], default="both")
